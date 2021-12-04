@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 
 const Patient = () =>  {
 
-const patientsApiPath = "http://localhost:3000/api/patients"
+const patientsApiPath = "https://tugaspawapi.herokuapp.com//api/patients"
 
 const [patientsData, setPatientsData] = useState([])
 const [patientsDataFiltered, setPatientsDataFiltered] = useState([])

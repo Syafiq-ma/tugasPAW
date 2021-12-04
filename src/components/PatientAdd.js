@@ -28,7 +28,7 @@ const PatientAdd = () => {
 
     function addPatient(e){
         e.preventDefault()
-        Axios.post("http://localhost:3000/api/patients", patientValue)
+        Axios.post("https://tugaspawapi.herokuapp.com/api/patients", patientValue)
         .then(response=>{
             if(response.data === "Create successful"){
                 alert(response.data)

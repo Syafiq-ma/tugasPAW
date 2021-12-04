@@ -25,7 +25,7 @@ const QueueAdd = () => {
 
     function addQueue(e){
         e.preventDefault()
-        Axios.post("http://localhost:3000/api/queue", queueValue)
+        Axios.post("https://tugaspawapi.herokuapp.com/api/queue", queueValue)
         .then(response=>{
             if(response.data === "Create successful"){
                 alert(response.data)

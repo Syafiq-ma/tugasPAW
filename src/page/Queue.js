@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom';
 const Queue = () =>  {
 
 
-const queueApiPath = "http://localhost:3000/api/queue"
+const queueApiPath = "https://tugaspawapi.herokuapp.com/api/queue"
 
 const [queueData, setQueueData] = useState([])
 
