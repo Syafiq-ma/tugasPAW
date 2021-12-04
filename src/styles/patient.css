@@ -1,0 +1,88 @@
+.main {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.main h1 {
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    margin-top:30px;
+    margin-bottom: 10px;
+}
+
+.searchBar{
+    display: flex;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 5px 20px;
+    border-color: #00cc99;
+    border-radius: 10px;
+}
+
+.add-button {
+    background-color: #00cc99; /* Green */
+    color: white;
+    padding: 8px 24px;
+    width: 100px;
+    display: block;
+    margin: auto;
+    border-radius:5px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    text-align: center;
+    text-decoration: none;
+    filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25))
+}
+
+.main span {
+    font-family: Poppins;
+    font-size: 16px;
+}
+
+.container table {
+    width:80%;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+}
+
+.table-header {
+    background-color: #00cc99;
+    padding:2px;
+    width: 1515px;
+    height: 50px;
+    left: 201px;
+    top: 390px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    color:white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 36px;
+}
+
+.table-data td {
+    
+    border-bottom: 1px solid #898989;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.table-data button {
+    margin:4px;
+}
